@@ -31,7 +31,7 @@ The project has the following files
 * ssh_key.tf -> has public key configuration to be passed to the droplet
 * terraform.tfvars -> has the DigitalOcean API key, file never uploaded to the repository
 * userdata.yaml -> has all software provisioning inside the droplet and executes some commands
-* www -> file that contains the static resources to be served
+* www -> folder that contains the static resources to be served
 ```
     terraform init
 ```
